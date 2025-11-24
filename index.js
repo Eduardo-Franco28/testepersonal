@@ -13,17 +13,20 @@ document.addEventListener("touchstart", function () {}, true);
 
 document.getElementById("bronze").addEventListener("click", function () {
   setTimeout(() => {
-    window.location.href = "https://mpago.li/2cj1odn";
+    window.location.href =
+      "https://wa.me/5519971316301?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20serviços!";
   }, 400);
 });
 document.getElementById("prata").addEventListener("click", function () {
   setTimeout(() => {
-    window.location.href = "https://mpago.li/2ENYKDE";
+    window.location.href =
+      "https://wa.me/5519971316301?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20serviços!";
   }, 400);
 });
 document.getElementById("ouro").addEventListener("click", function () {
   setTimeout(() => {
-    window.location.href = "https://mpago.li/25GJWiq";
+    window.location.href =
+      "https://wa.me/5519971316301?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20serviços!";
   }, 400);
 });
 
@@ -61,56 +64,3 @@ gsap.fromTo(
     },
   }
 );
-
-/*const btnRight = document.getElementById('seta-direita')
-const btnLeft = document.getElementById('seta-esquerda')
-const cards1 = document.querySelectorAll('.cards-feedbacks')
-const cards2 = document.querySelectorAll('.cards-feedbacks2')
-
-btnRight.addEventListener('click', () =>{
-    cards1.forEach((card) =>{
-        card.classList.toggle('invisivel')
-    })
-    cards2.forEach((card2) =>{
-        card2.classList.toggle('invisivel')
-    })
-})
-btnLeft.addEventListener('click', () =>{
-    cards1.forEach((card) =>{
-        card.classList.toggle('invisivel')
-    })
-    cards2.forEach((card2) =>{
-        card2.classList.toggle('invisivel')
-    })
-})*/
-
-const mulheresquerda = document.querySelector(".evolucao1mu");
-const mulherecentro = document.querySelector(".evolucao2mu");
-const homemdireita = document.querySelector(".evolucao1ho");
-
-mulheresquerda.onmouseover = () => {
-  mulherecentro.classList.add("efeitoBlur");
-  homemdireita.classList.add("efeitoBlur");
-};
-mulheresquerda.onmouseout = () => {
-  mulherecentro.classList.remove("efeitoBlur");
-  homemdireita.classList.remove("efeitoBlur");
-};
-
-mulherecentro.onmouseover = () => {
-  mulheresquerda.classList.add("efeitoBlur");
-  homemdireita.classList.add("efeitoBlur");
-};
-mulherecentro.onmouseout = () => {
-  mulheresquerda.classList.remove("efeitoBlur");
-  homemdireita.classList.remove("efeitoBlur");
-};
-
-homemdireita.onmouseover = () => {
-  mulherecentro.classList.add("efeitoBlur");
-  mulheresquerda.classList.add("efeitoBlur");
-};
-homemdireita.onmouseout = () => {
-  mulherecentro.classList.remove("efeitoBlur");
-  mulheresquerda.classList.remove("efeitoBlur");
-};
